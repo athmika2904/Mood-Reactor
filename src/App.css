@@ -8,6 +8,7 @@
 }
 .moodcard p{
   font-weight: 600;
+  color: rgb(66, 179, 197);
 }
 .moodcard button{
   width: 80px;
