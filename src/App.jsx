@@ -5,8 +5,9 @@ function App() {
   const thoughts={Happy: "Today feels amazing!",
     Nervous: "What if I mess this up?",
     Excited: "Something big is coming!"}
+  const color={Happy:"#FFFF00",Nervous:"#6C7A89",Excited:"#e86f19"}
   return (
-    <div className="moodcard">
+    <div style={{backgroundColor:color[mood]}}className="moodcard">
       <h1>Mood Reactor</h1>
       <button onClick={()=>setmood("Happy")}>Happy</button>
       <button onClick={()=>setmood("Nervous")}>Nervous</button>
